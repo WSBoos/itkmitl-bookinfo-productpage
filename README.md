@@ -17,6 +17,12 @@ docker build -t image_productpage .
 docker run -d --name productpage -p 8083:8083 image_productpage 
 ```
 
+## How to run with Docker-Compose
+
+```bash
+docker-compose up -d
+```
+
 ## License
 
 MIT License
